@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://carceropolis.fr/?page=test_timeline&var_mode=recalcul -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>jQuery Load Example Timeline</title>
+		<meta name="description" content="TimelineJS example">
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="./france_files/jquery.min.js"></script>
+		
+		<!-- BEGIN TimelineJS -->
+		<script type="text/javascript" src="./france_files/storyjs-embed.js"></script>
+		<script>
+			$(document).ready(function() {
+				createStoryJS({
+					type:		'timeline',
+					width:		'100%',
+					height:		'500',
+					source:		'https://docs.google.com/spreadsheet/pub?key=0AqnJjJ-F9k5xdGhmY1pnUGxpY3lfNkJzWUxycnZCdWc&output=html',
+					embed_id:	'my-timeline',
+					debug:		true
+				});
+			});
+		</script>
+		<!-- END TimelineJS -->
+		
+	<link href="http://carceropolis.fr/jscomponents/timelineJS/compiled/css/timeline.css?2.17" rel="stylesheet" class="lazyload" charset="utf-8"><script src="./france_files/timeline-min.js" class="lazyload" charset="utf-8"></script></head>
+
+	<body>
+		
+		<div id="my-timeline" class="storyjs-embed sized-embed"> </div>
+	
+	
+
+</body></html>
